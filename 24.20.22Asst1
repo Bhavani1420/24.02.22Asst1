@@ -1,0 +1,19 @@
+x=(input("enter a number"))
+l=x.split()
+o=[]
+e=[]
+for i in l:
+    i=int(i)
+    if i%2==0:
+        e.append(i)
+    else:    
+        o.append(i)
+for i in range(len(o)):
+    print(o[i],end=' ')
+print(' ',end=' ')
+for i in range(len(e)):
+    print(e[i],end=' ')
+   O/P
+   enter a number 1 2 3 4 5
+1 3 5   2 4 
+
